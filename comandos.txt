@@ -1,0 +1,420 @@
+    1  pwd
+    2  ls
+    3  mkdir practica_git.
+    4  cd practica_git.
+    5  pwd
+    6  echo "Este es un archivo de practica." > archivo_practica.txt
+    7  cat archivo_practica.txt
+    8  cd ..
+    9  cp practica_git./archivo_practica.txt practica_git./archivo_practica.txt
+   10  cp practica_git./archivo_practica.txt practica_git./archivo_copia.txt
+   11  cd practica_git.
+   12  ls
+   13  cd
+   14  mv practica_git./archivo_copia.txt practica_git./archivo_renombrado.txt
+   15  cd practivca_git.
+   16  cd practica_git.
+   17  ls
+   18  cd
+   19  rm practica_git./archivo_renombrado.txt
+   20  cd practica_git.
+   21  ls
+   22  rmdir practica_git.
+   23  echo "Linea 1" > archivo1.txt
+   24  echo "Linea 2" > archivo2.txt
+   25  echo "Linea 3" > archivo3.txt
+   26  diff archivo1.txt archivo2.txt
+   27  diff archivo1.txt archivo3.txt
+   28  git
+   29  ls -l
+   30  cd
+   31  pwd
+   32  cd miprimerrepo
+   33  git status
+   34  nano
+   35  nano README.md
+   36  git status
+   37  git add .
+   38  git status
+   39  git commit -m "Primera version de README.md"
+   40  pwd
+   41  mkdir EmpresaA
+   42  cd EmpresaA
+   43  mkdir RRHH
+   44  cd RRHH
+   45  mkdir Finanzas
+   46  mkdir Empleados
+   47  mkdir Administracion
+   48  cd Finanzas
+   49  pwd
+   50  cd..
+   51  cd ..
+   52  mkdrm
+   53  rmkdir
+   54  rkdir
+   55  rmdir
+   56  rmdir .
+   57  rmdir finanzas
+   58  rmdir empleados
+   59  rmdir administracion
+   60  cd ..
+   61  rmdir RRHH
+   62  cd ..
+   63  rmdir empresaa
+   64  pwd
+   65  cd ..
+   66  pwd
+   67  cd ..
+   68  pwd
+   69  mkdir EmpresaA
+   70  mkdir 17417
+   71  ls
+   72  cd 17417
+   73  mkdir user
+   74  cd user
+   75  mkdir EmpresaA
+   76  cd EmpresaA
+   77  mkdir RRHH
+   78  cd RRHH
+   79  mkdir Finanzas
+   80  mkdir Empleados
+   81  mkdir Administracion
+   82  cd Finanzas
+   83  touch bonos.csv
+   84  touch salario.csv
+   85  ls
+   86  cd ..
+   87  cd Empleados
+   88  touch evaluaciones.csv
+   89  touch periodoPruebas.csv
+   90  ls
+   91  cd ..
+   92  cd administracion
+   93  touch directivos.csv
+   94  touch horario.csv
+   95  ls
+   96  cp -r RRHH/Finanzas RRHH/FinanzasNuevo
+   97  cd ..
+   98  cp -r RRHH/Finanzas RRHH/FinanzasNuevo
+   99  cp -r Finanzas FinanzasNuevo
+  100  ls
+  101  cd FinanzasNuevo
+  102  ls
+  103  rm -r Finanzas
+  104  cd ..
+  105  rm -r Finanzas
+  106  cd ..
+  107  cd ../..
+  108  pwd
+  109  rm -r user
+  110  mkdir Tarea1
+  111  cd Tarea1
+  112  mkdir user
+  113  mkdir EmpresaA
+  114  mkdir RRHH
+  115  mkdir Finanzas
+  116  mkdir Empleados
+  117  mkdir Administracion
+  118  ls
+  119  cd Finanzas
+  120  touch bonos.csv
+  121  touch salarios.csv
+  122  cd ..
+  123  cd empleados
+  124  touch evaluaciones.csv
+  125  touch PeriodoPrueba.csv
+  126  cd ..
+  127  cd administracion
+  128  touch directivos.csv
+  129  touch horario.csv
+  130  cd ..
+  131  ls
+  132  cd RRHH
+  133  cp -r Tarea1/Finanzas FinanzasNuevo
+  134  cd ..
+  135  cp -r finanzas RRHH/finanzasNuevo
+  136  rm -r finanzas
+  137  mv administracion RRHH
+  138  ls
+  139  cd rrhh
+  140  ls
+  141  mkdir Empleado
+  142  cd ..
+  143  ls
+  144  cd Empleados
+  145  mv evaluaciones.csv RRHH/empleado
+  146  mv evaluaciones.csv Tarea1/RRHH/empleado
+  147  cd..
+  148  mv -r empleados rrhh/empleado
+  149  ls
+  150  cd ..
+  151  mv -r empleados rrhh/empleado
+  152  cd empleados
+  153  mv evaluaciones.csv ../RRHH/empleado
+  154  mv periodoPruebas.csv ../RRHH/empleado
+  155  ls
+  156  mv periodoPrueba.csv ../RRHH/empleado
+  157  cd ..
+  158  ls
+  159  cd rrhh
+  160  ls
+  161  cd empleado
+  162  ls
+  163  cd ..
+  164  cd ..
+  165  EmpresaA
+  166  cd EmpresaA
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd rrhh
+  171  ls
+  172  ls
+  173  rm Tarea1
+  174  cd tarea1
+  175  ls
+  176  rm -r Tarea1
+  177  cd ..
+  178  rm -r tarea1
+  179  ls
+  180  mkdir Tarea1
+  181  cd Tarea1
+  182  mkdir User
+  183  cd User
+  184  mkdir EmpresaA && cd $_
+  185  mkdir RRHH && cd $_
+  186  mkdir Finanzas
+  187  mkdir Empleados
+  188  mkdir Administracion
+  189  cd Finanzas
+  190  nano bonos.csv
+  191  nano salario.csv
+  192  nano ../Empleados/ evaluaciones.csv
+  193  cd ..
+  194  nano Empleados/periodoPrueba.csv
+  195  nano Administracion/directivos.csv
+  196  nano Administracion/horario.csv
+  197  cp -r Finanzas FinanzasNuevo
+  198  ls
+  199  cd FinanzasNuevo
+  200  ls
+  201  ls Finanzas
+  202  ls ../Finanzas
+  203  ls ../Empleados
+  204  mv ../Finanzas/evaluaciones.csv  ../Empleados
+  205  ls ../Finanzas
+  206  ls ../empleados
+  207  rm evaluaciones.csv
+  208  ls
+  209  cd ..
+  210  cd ..
+  211  mv -r RRHH/Administracion
+  212  mv -r RRHH/Administracion .
+  213  mv -r RRHH/Administracion ./
+  214  mv -r ./RRHH/Administracion ./
+  215  cp -r ./RRHH/Administracion ./
+  216  ls
+  217  cd adm
+  218  cd administracion
+  219  ls
+  220  cd ..
+  221  cp -r ./RRHH/empleados ./
+  222  ls ./rrhh
+  223  cp -r ./RRHH/finanzas ./
+  224  rm -r rrhh
+  225  ls
+  226  mkdir rrhh
+  227  ls
+  228  rm rrhh
+  229  cd rrhh
+  230  ls
+  231  cd ..
+  232  rm -r rrhh
+  233  mkdir RRHH
+  234  ls
+  235  cp -r ./Finanzas ./RRHH
+  236  ls
+  237  cd rrhh
+  238  ls
+  239  cd finanzas
+  240  ls
+  241  cd ..
+  242  cd ..
+  243  rm -r finanzas
+  244  mv -r ./administracion ./RRHH
+  245  mv  ./administracion ./RRHH
+  246  ls
+  247  cd rrhh
+  248  mkdir Empleado
+  249  cd ..
+  250  mv ./empleados/evaluaciones.csv ./RRHH/empleado
+  251  mv ./empleados/periodoPruebaa.csv ./RRHH/empleado
+  252  mv ./empleados/periodoPrueba.csv ./RRHH/empleado
+  253  ls
+  254  ls RRHH
+  255  ls RRHH/Empleado
+  256  ls RRHH/Finanzas
+  257  ls RRHH/Administracion
+  258  ls Empleados
+  259  ls
+  260  cd MiPrimerRepo
+  261  ls
+  262  git commit-
+  263  git
+  264  git status
+  265  git commit
+  266  git config --global user.email "MstCruz46@gmail.com"
+  267  git config --global user.name "Mons46A"
+  268  git commit
+  269  cd MiPrimerRepo
+  270  git commit -m "Primer movimiento"
+  271  git status
+  272  git
+  273  cd MiPrimerRepo
+  274  ls
+  275  mkdir mis-favoritos
+  276  cd mis-favoritos
+  277  nano peliculas.txt
+  278  nano libros.txt
+  279  nano series.txt
+  280  git init
+  281  git config user.name
+  282  git config user.email
+  283  git status
+  284  git add .
+  285  git status
+  286  git commit -m "Añadir listas de peliculas, libros y series favoritas"
+  287  git log
+  288  cd ..
+  289  mkdir mis-hobbies && cd $_
+  290  git init
+  291  nano hobbies.txt
+  292  nano metas.txt
+  293  cat hobbies.txr
+  294  cat hobbies.txt
+  295  cat metas.txt
+  296  git status
+  297  git add .
+  298  git status
+  299  git commit -m "Añadir archivos iniciales hobbies.txt y metas.txt"
+  300  git status
+  301  nano hobbies.txt
+  302  git status
+  303  git commit -m "Añadir nuevo hobby; Programar"
+  304  git add .
+  305  git log
+  306  git commit -m "Añadir nuevo hobby; Programar"
+  307  nano metas.txt
+  308  git status
+  309  git add metas.txt
+  310  git commit -m "Actualizar metas semestral"
+  311  git status
+  312  git log
+  313  ls
+  314  ls
+  315  mkdir primerRepo
+  316  cd primerRepo
+  317  git init
+  318  echo "# primerRepo" >> primerRepo.md
+  319  git add primerRepo.md
+  320  git commit -m "primer commit"
+  321  git branch -M main
+  322  git remote add origin https://github.com/Mons46A/primerRepo.git
+  323  git push -u origin main
+  324  nano princesas.txt
+  325  nano colores.txt
+  326  nano materias.txt
+  327  git status
+  328  git add .
+  329  git status
+  330  git commit -m "Primeros 3 archivos en primerRepo"
+  331  git push
+  332  git log
+  333  cd primerRepo
+  334  ls
+  335  it pull
+  336  git pull
+  337  nano deportes.txt
+  338  git add deportes.txt
+  339  git commit -m "Actualización deportes"
+  340  git push
+  341  git add .
+  342  git status
+  343  git push
+  344  git pull
+  345  git add .
+  346  git commit -m "DEPORTE NUEVO"
+  347  git status
+  348  git push
+  349  git log
+  350  git pull
+  351  nano princesa.txt
+  352  ls
+  353  rm princesa.txt
+  354  ls
+  355  nano princesas.txt
+  356  git add .
+  357  git puul
+  358  git pull
+  359  git add .
+  360  git commit -m "Nueva princesa"
+  361  git push
+  362  ls
+  363  mkdir Practica-MonserratCruz170924
+  364  cd Practica-MonserratCruz170924
+  365  git init
+  366  git remote add origin https://github.com/Mons46A/Practica-MonserratCruz170924.git
+  367  git branch -M main
+  368  git push -u origin main
+  369  cd ..
+  370  rm practica-monserratcruz170924
+  371  ls
+  372  cd practica-monserratcruz170924
+  373  ls
+  374  cd ..
+  375  rm practica-monserratcruz170924
+  376  rmdir practica-monserratcruz170924
+  377  cd practica-monserratcruz170924
+  378  git init
+  379  git remote add origin https://github.com/Mons46A/Practica-MonserratCruz170924.git
+  380  git branch -M main
+  381  git push -u origin main
+  382  nano misPeliculas.txt
+  383  nano misCanciones.txt
+  384  git status
+  385  git add .
+  386  git status
+  387  git commit -m "commit 01 de MCR"
+  388  git push
+  389  git push --set-upstream origin main
+  390  git branch
+  391  git checkout -b feature
+  392  mkdir Hardware
+  393  mkdir Software
+  394  mkdir SeguridadInformatica
+  395  cd hardware
+  396  nano resumen.txt
+  397  cd ../software
+  398  nano resumen.txt
+  399  cd ../Seguridadinformatica
+  400  nano resumen.txt
+  401  cd ..
+  402  git status
+  403  git add .
+  404  git commit -m "commit 02 de MCR"
+  405  git push origin feature
+  406  git status
+  407  git branch
+  408  git checkout main
+  409  ls
+  410  nano misCanciones.txt
+  411  nano misCanciones.txt
+  412  mv misCanciones.txt resumenSoftware.txt
+  413  ls
+  414  rm misPeliculas.txt resumenHardware.txt
+  415  mv misPeliculas.txt resumenHardware.txt
+  416  ls
+  417  nano resumenHardware.txt
+  418  nano resumenSoftware.txt
+  419  nano comandos.txt
+  420  history > comandos.txt
